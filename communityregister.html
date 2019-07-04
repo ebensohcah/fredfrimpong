@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- required meta tags -->
+    <meta charset="utf-8">
+
+    <meta name="description" content="Building modern responsive website with html5, css3, jQuery & bootstrap framework">
+    <meta name="keywords" content="HTML5, CSS3, jQuery, Bootstrap, Web Design, Web Development, Responsive website, Modern website">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>Modern Responsive Website</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate/animate.css">
+
+    <!-- magnific-popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+
+    <header>
+
+
+        <nav class="navbar vesco-top-nav navbar-fixed-top">
+
+            <div class="container-fluid">
+
+                <div class="vesco-nav-wrapper">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#vesco-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a class="navbar-brand" href="index.html#home">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="vesco-menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#team">Team</a></li>
+                            <li><a href="index.html#testimonials">Testimonials</a></li>
+                            <li><a href="index.html#work">Work</a></li>
+                            <li><a href="index.html#stats">Achievements</a></li>
+                            <li><a href="index.html#clients">Clients</a></li>                                                        
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data Input<span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="communityregister.html">Comunity Register</a></li>                              
+                                    <li><a href="datainput.html">New Fields</a></li>
+                                </ul>
+                            </li>
+                             <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reports<span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="unicef.html">Unicef</a></li>                              
+                                    <li><a href="mondelez.html">Mondelez</a></li>                               
+                                    <li><a href="uniterra.html">Uniterra</a></li>                                    
+                                </ul>
+                            </li>                           
+                            <li><a href="index.html#contact">Contact</a></li>
+                            <li><a class="smooth-scroll CollapseNavbarMobile" href="#" ><i class="fa fa-user"></i></a></li>                          
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+
+
+
+
+
+    <!-- Services -->
+    <section id="services">
+
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3> Community Register </h3>
+                <div class="content-title-underline"></div>
+            </div>
+
+            <div class="container">
+
+                <div class="col-sm-offset-2">
+                    <h4>Community Register for Children</h4>
+                </div>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="inputChildFirstName" class="col-sm-4 control-label">First Name</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control input-control" id="inputChildFirstName" placeholder="Enter First Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputChildLastName" class="col-sm-4 control-label">Last Name</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control input-control" id="inputChildLastName" placeholder="Enter Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputChildDOB" class="col-sm-4 control-label">Date of Birth</label>
+                        <div class="col-sm-3">
+                            <input type="date" class="form-control input-control" id="inputChildDOB" placeholder="Enter Date of Birth">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputChildAge" class="col-sm-4 control-label">Age</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control input-control" id="inputChildAge" placeholder="Enter Age">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputChildGender" class="col-sm-4 control-label">Select Gender</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Male</option>
+                                <option value="3">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputInSchool" class="col-sm-4 control-label">In school?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputChildGrade" class="col-sm-4 control-label">Grade</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control input-control" id="inputChildGrade" placeholder="Enter Age">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEconomicActivity" class="col-sm-4 control-label">Economic activity?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputFishing" class="col-sm-4 control-label">Fishing?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputGalamseyQuarryingSandwining" class="col-sm-4 control-label">Galamsey /Quarrying / Sandwining?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputHouseholdCocoaLife" class="col-sm-4 control-label">Cocoa Life?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputDomesticWorkServitude" class="col-sm-4 control-label">Domestic work servitude?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputHeadPoterageCarting" class="col-sm-4 control-label">Head poterage carting?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputCocoaFarming" class="col-sm-4 control-label">Cocoa farming?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputHazardousChildLabour" class="col-sm-4 control-label">Hazardous child labour?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputWorstFormsOfChildLabour" class="col-sm-4 control-label">Worst forms of child labour?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputChildLabour" class="col-sm-4 control-label">Child labour?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputHighRiskOfChildLabour" class="col-sm-4 control-label">HighRisk of child labour?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputChildRecruited" class="col-sm-4 control-label">Child recruited?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputChildTransported" class="col-sm-4 control-label">Child transported?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputHandedOverByRecruiter" class="col-sm-4 control-label">Handed over by recruiter?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputHarboredToCurrentLocation" class="col-sm-4 control-label">Harbored to current location?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputHasBeenTraded" class="col-sm-4 control-label">Has been traded?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSexuallyExploited" class="col-sm-4 control-label">Sexually exploited?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputBondage" class="col-sm-4 control-label">Engaged in ponographic recordings?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputBondage" class="col-sm-4 control-label">Bondage?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSiblingsPeerOfCurrentChildLabor" class="col-sm-4 control-label">Siblings peer of current childLabor?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputNotInSchoolLowAttendance" class="col-sm-4 control-label">Not in school low attendance?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputGivenBirthPregnant" class="col-sm-4 control-label">Given birth pregnant?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputGuardianParentDisabilityIllness" class="col-sm-4 control-label">Guardian parent disability illness?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="OrphanFosteredAdopted" class="col-sm-4 control-label">Orphan fostered adopted?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputCloseToWorkplacesEmployChildren" class="col-sm-4 control-label">Close to workplaces that employ kids</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputLowPerformance" class="col-sm-4 control-label">Low performance?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputManualWork" class="col-sm-4 control-label">Manual work?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputWorkLongHoursAtHome" class="col-sm-4 control-label">Work long hours at home?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputWorkingWithAgrochemicals" class="col-sm-4 control-label">Working with agrochemicals?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputBurningOfBush" class="col-sm-4 control-label">Burning of bush?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputExposedToPesticides" class="col-sm-4 control-label">Exposed to pesticides?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMadeToClimbTrees" class="col-sm-4 control-label">Made to climb trees?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputUseOfMotorisedBlower" class="col-sm-4 control-label">Use of motorised blower?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputHarvestingCocoaPods" class="col-sm-4 control-label">Harvesting cocoa pods?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputBreakCocoaPodsWithKnife" class="col-sm-4 control-label">Break cocoa pods with knife?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputCarryHeavyLoads" class="col-sm-4 control-label">Carry heavy loads?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputWorkLongHoursInTheFarm" class="col-sm-4 control-label">Work long hours in the farm?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputDoNotUseProtectiveGears" class="col-sm-4 control-label">Do not use protective gears?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputWorkInIsolation" class="col-sm-4 control-label">Work in isolation?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputGoToFarmsAlone" class="col-sm-4 control-label">Go to farms alone?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputChildrenInCLWithoutHCL" class="col-sm-4 control-label">Children in CL without HCL?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputChildrenInWFCLWithoutHCL" class="col-sm-4 control-label">Children in WFCL without HCL?</label>
+                        <div class="col-sm-3">
+                            <select id="selectbasic" name="selectbasic" class="form-control  input-control">
+                                <option value="1">---Select---</option>
+                                <option value="2">Yes</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputDateUndertaken" class="col-sm-4 control-label">Date undertaken</label>
+                        <div class="col-sm-3">
+                            <input type="date" class="form-control input-control" id="inputHoseholdDOB" placeholder="Enter Date of Birth">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-3">
+                            <button type="submit" class="btn btn-default btn-blue">Submit</button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                </form>
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <footer>
+
+        <div id="contact">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div id="contact-left">
+
+                            <h3>CHILD RIGHTS INTERNATIONAL</h3>
+                            <p>Our mission is to <strong>promote</strong> and <strong>protect</strong> the inherent dignity of every child, to draw attention to the fundamental needs of children, and to provide assistance to help children develop to their full potential.</p>
+
+                            <div id="contact-info">
+
+                                <address>
+                                    <strong>Headquarters:</strong><br>
+                                    <p>50 Odum Road, Accra, <br>
+                                        Ghana</p>
+                                </address>
+                                <div id="phone-fax-email">
+                                    <p>
+                                        <strong>Phone:</strong><span> +233 (302) 503 744 </span> <br>
+                                        <strong>Fax:</strong><span> +233 (302) 503 744 </span> <br>
+                                        <strong>Email:</strong><span> info@crighana.org </span> <br>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <ul class="social-list">
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-youtube-play"></i></a></li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="contact-right">
+
+                            <h3>Contact Us</h3>
+                            <form action="#">
+
+                                <input type="text" name="full-name" placeholder="Full Name" class="form-control">
+                                <input type="text" name="email" placeholder="Email Address" class="form-control">
+                                <textarea rows="5" name="message" placeholder="Message..." class="form-control"></textarea>
+
+                                <div id="send-btn">
+                                    <a class="btn btn-lg btn-general btn-white" href="#" role="button">SEND</a>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <div id="footer-copyrights">
+                            <p>Copyrights &copy; 2019 Child Rights International.</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        <div id="footer-menu">
+                            <ul>
+                                <li><a class="smooth-scroll" href="#home">Home</a>/</li>
+                                <li><a class="smooth-scroll" href="#team">Team</a>/</li> 
+                                 <li><a class="smooth-scroll" href="#testimonials">Testimonials</a>/</li>                        
+                                <li><a class="smooth-scroll" href="#work">Work</a>/</li>
+                                 <li><a class="smooth-scroll" href="#stats">Achievements</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
+
+    </footer>
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- WOW JS -->
+    <script src="js/wow/wow.min.js"></script>
+
+    <!-- magnific-popup JS -->
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- owl carousel JS -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- counter -->
+    <script src="js/counter/jquery.waypoints.min.js"></script>
+    <script src="js/counter/jquery.counterup.min.js"></script>
+
+    <!-- easing -->
+    <script src="js/easing/jquery.easing.1.3.js"></script>
+
+
+    <!-- custom JS -->
+    <script src="js/custom.js"></script>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
